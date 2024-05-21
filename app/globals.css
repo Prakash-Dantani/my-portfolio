@@ -18,4 +18,55 @@
     .heading{
         @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase
     }
+    .section-start-div{
+        @apply bg-[#121121] pt-[4rem] md:pt-[4rem] pb-[5rem]
+    }
+
+    .technology-icon{
+        @apply text-yellow-400 h-[1rem] mx-auto 
+    }
+    
+    .technology-name{
+        @apply text-white text-[12px] md:text-[14px] uppercase text-nowrap
+    }
+
+    .text-color-three{
+        @apply text-[#55e6a5]
+    }
+
+    .text-color-four{
+        @apply text-slate-400
+    }
+
+    .expertise-text{
+        @apply mx-[2rem] md:mx-[5.5rem] text-[#ffffff92] text-[12px] md:text-[14px] font-semibold text-nowrap
+    }
+
+    .technology-container{
+        @apply grid grid-cols-2 w-[90%] mx-auto items-center text-justify gap-y-[0.5rem] pr-[4rem]
+    }
+
+    .project-div{
+        @apply transform cursor-pointer hover:translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]
+    }
+    
+    .footer-container{
+        @apply grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-[80%] mx-auto gap-[3rem]
+    }
+    
+    .footer-icon-container{
+        @apply md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5]
+    }
+
+    .footer-icon{
+        @apply md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black
+    }
+
+    .footer-item-heading{
+        @apply text-[25px] mb-[0.2rem] font-semibold text-white
+    }
+
+    .footer-item-text{
+        @apply text-[17px] w-[90%] text-white opacity-60
+    }
 }
