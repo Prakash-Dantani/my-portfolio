@@ -12,6 +12,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -42,7 +43,7 @@ const HomePage = () => {
     });
   }, []);
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden" id="home">
       <div>
         {/* Navbar   */}
         <MobileNav nav={nav} closeNav={closeNav} />
@@ -71,6 +72,8 @@ const HomePage = () => {
         {/* Client Review Section  */}
         <Testimonial />
 
+        {/* Contact Me Section  */}
+        <Contact />
         {/* Footer Section */}
         <Footer />
       </div>

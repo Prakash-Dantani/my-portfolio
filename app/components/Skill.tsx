@@ -29,7 +29,7 @@ import {
 
 const Skill = () => {
   return (
-    <div className="section-start-div">
+    <div id="skills" className="section-start-div">
       <p className="heading">
         MY <span className="text-yellow-400">SKills</span>
       </p>

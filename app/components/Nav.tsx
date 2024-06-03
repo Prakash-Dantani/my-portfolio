@@ -1,5 +1,7 @@
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import React from "react";
+import { Link } from "react-scroll";
+import LinkElement from "./LinkElement";
 
 interface Props {
   openNav: () => void;
@@ -11,11 +13,30 @@ const Nav = ({ openNav }: Props) => {
         <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
           PRAKASH <span className="text-yellow-300">DANTANI</span>
         </h1>
-        <div className="nav-link">HOME</div>
-        <div className="nav-link">ABOUT</div>
-        <div className="nav-link">PROJECT</div>
-        <div className="nav-link">BLOG</div>
-        <div className="nav-link">CONTACT</div>
+        <div className="nav-link">
+          <LinkElement link="home" link_text="HOME" />
+        </div>
+        <div className="nav-link">
+          <LinkElement link="about" link_text="ABOUT" />
+        </div>
+        <div className="nav-link">
+          <LinkElement link="project" link_text="PROJECT" />
+        </div>
+        <div className="nav-link">
+          <LinkElement link="services" link_text="SERVICES" />
+        </div>
+        <div className="nav-link">
+          <LinkElement link="skills" link_text="SKILLS" />
+        </div>
+        <div className="nav-link">
+          <LinkElement link="experience" link_text="EXPERIENCE" />
+        </div>
+        <div className="nav-link">
+          <LinkElement link="review" link_text="REVIEW" />
+        </div>
+        <div className="nav-link">
+          <LinkElement link="contact" link_text="CONTACT" />
+        </div>
         <div onClick={openNav}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
         </div>

@@ -3,7 +3,7 @@ import ExperienceItems from "./ExperienceItems";
 
 const Experience = () => {
   return (
-    <div className="section-start-div">
+    <div id="experience" className="section-start-div">
       <p className="heading">
         MY <span className="text-yellow-400">Experience</span>
       </p>

@@ -7,7 +7,10 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="bg-[#121121] pt-[4rem] md:pt-[8rem] pb-[5rem]">
+    <div
+      id="services"
+      className="bg-[#121121] pt-[4rem] md:pt-[8rem] pb-[5rem]"
+    >
       <p className="heading">
         MY <span className="text-yellow-400">SERVICES</span>
       </p>
