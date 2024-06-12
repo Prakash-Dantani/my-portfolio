@@ -15,11 +15,22 @@ const About = () => {
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
-            <p className="text-[19px] text-slate-300 w-[80%]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga,
-              molestiae. Ex cumque sequi ad, odit temporibus commodi
-              consequuntur, reprehenderit distinctio dignissimos accusamus
-              provident! Sapiente quidem quas blanditiis beatae, cupiditate at.
+            <p className="text-[19px] text-slate-300 w-[90%] mt-[1.5rem] leading-relaxed text-justify">
+              Hello! I am Prakash Dantani, a passionate and dedicated Full-Stack
+              Developer and team leader with a robust background in creating
+              high-performance, scalable web applications using the latest
+              information and technologies and service industry.
+              <br />
+              <br />
+              Specializes skills in : NodeJS, ExpressJS, PHP, Laravel, ReactJS,
+              TypeScript, Javascript, Jquery, HTML, CSS, Bootstrap, Tailwind
+              CSS, REST API Development, PostgreSql, MySql MongoDB, Git, Gitlab,
+              Github, Bitbucket Slack.
+              <br />
+              <br />
+              With a commitment to continuous learning and improvement, I am
+              always eager to take on new challenges and contribute to impactful
+              projects.
             </p>
           </div>
           <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">

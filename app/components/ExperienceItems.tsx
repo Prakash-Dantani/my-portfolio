@@ -3,8 +3,9 @@ import React from "react";
 interface Props {
   title: string;
   year: string;
+  content: string;
 }
-const ExperienceItems = ({ title, year }: Props) => {
+const ExperienceItems = ({ title, year, content }: Props) => {
   return (
     <div className="mb-[4rem] md:mb-[8rem]">
       <span className="px-[2rem] text-[#55e6a5] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#55e6a5]">
@@ -13,10 +14,8 @@ const ExperienceItems = ({ title, year }: Props) => {
       <h1 className="mt-[2rem] uppercase font-semibold mb-[1rem] text-[20px] sm:text-[25px] md:text-[30px] text-white">
         {title}
       </h1>
-      <p className="text-[#aaaaaa] font-normal w-[80%] text-[17px] opacity-80">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint incidunt
-        numquam consequuntur, in et obcaecati cumque maiores sit harum odio ab
-        quas ea, dolore doloremque pariatur illo a. Soluta, ut.
+      <p className="text-[#aaaaaa] font-normal w-[80%] text-[17px] opacity-80 text-justify">
+        {content}
       </p>
     </div>
   );

@@ -68,13 +68,13 @@ const Skill = () => {
               <div className="technology-container">
                 <DiReact className="technology-icon" />
                 <label className="technology-name">React JS</label>
-                <span className="expertise-text">Experienced</span>
+                <span className="expertise-text">Intermediate</span>
               </div>
 
               <div className="technology-container">
                 <SiTypescript className="technology-icon" />
                 <label className="technology-name">TypeScript</label>
-                <span className="expertise-text">Experienced</span>
+                <span className="expertise-text">Intermediate</span>
               </div>
 
               <div className="technology-container">
@@ -86,7 +86,7 @@ const Skill = () => {
               <div className="technology-container">
                 <SiChakraui className="technology-icon" />
                 <span className="technology-name">Chakra UI</span>
-                <span className="expertise-text">Experienced</span>
+                <span className="expertise-text">Intermediate</span>
               </div>
 
               <div className="technology-container">
@@ -138,13 +138,13 @@ const Skill = () => {
               <div className="technology-container">
                 <DiCodeigniter className="technology-icon" />
                 <label className="technology-name">Codeigniter</label>
-                <span className="expertise-text">Experienced</span>
+                <span className="expertise-text">Beginner</span>
               </div>
 
               <div className="technology-container">
                 <DiMongodb className="technology-icon" />
                 <label className="technology-name">MongoDB</label>
-                <span className="expertise-text">Experienced</span>
+                <span className="expertise-text">Intermediate</span>
               </div>
 
               <div className="technology-container">
