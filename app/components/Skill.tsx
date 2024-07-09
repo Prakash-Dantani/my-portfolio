@@ -43,56 +43,75 @@ const Skill = () => {
             <div className="grid grid-cols-2 w-[90%] mx-auto items-center gap-x-[2rem] gap-y-[2rem] text-white">
               <div className="technology-container">
                 <DiHtml5 className="technology-icon" />
-                <label className="technology-name">HTML</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">HTML</label>
+                  <br />Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiCss3 className="technology-icon" />
-                <label className="technology-name">CSS</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">CSS</label>
+                  <br/>Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiJavascript1 className="technology-icon" />
-                <label className="technology-name">Javascript</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">Javascript</label>
+                  <br /> Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiJqueryLogo className="technology-icon" />
-                <label className="technology-name">Jquery</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">Jquery</label>
+                  <br /> Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiReact className="technology-icon" />
-                <label className="technology-name">React JS</label>
-                <span className="expertise-text">Intermediate</span>
+                <div className="expertise-text">
+                  <label className="technology-name">React JS</label>
+                  <br /> Intermediate
+                </div>
               </div>
 
               <div className="technology-container">
                 <SiTypescript className="technology-icon" />
-                <label className="technology-name">TypeScript</label>
-                <span className="expertise-text">Intermediate</span>
+                <div className="expertise-text">
+                  <label className="technology-name">TypeScript</label>
+                  <br />Intermediate
+                </div>
               </div>
 
               <div className="technology-container">
                 <BsBootstrap className="technology-icon" />
-                <label className="technology-name">Bootstrap</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">Bootstrap</label>
+                  <br />Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <SiChakraui className="technology-icon" />
-                <span className="technology-name">Chakra UI</span>
-                <span className="expertise-text">Intermediate</span>
+                <div className="expertise-text">
+                  <span className="technology-name">Chakra UI</span>
+                  <br />
+                  Intermediate
+                </div>
               </div>
 
               <div className="technology-container">
                 <SiTailwindcss className="technology-icon" />
-                <span className="technology-name">Tailwind CSS</span>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <span className="technology-name">Tailwind CSS</span>
+                  <br />Experienced
+                </div>
               </div>
             </div>
           </div>
@@ -107,56 +126,74 @@ const Skill = () => {
             <div className="grid grid-cols-2 w-[90%] mx-auto items-center gap-x-[2rem] gap-y-[2rem] text-white">
               <div className="technology-container">
                 <DiNodejs className="technology-icon" />
-                <label className="technology-name">NODE JS</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">NODE JS</label>
+                  <br />Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <SiExpress className="technology-icon" />
-                <label className="technology-name">Express JS</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">Express JS</label>
+                  <br/>Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <SiNextdotjs className="technology-icon" />
-                <label className="technology-name">NEXT JS</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">NEXT JS</label>
+                  <br/>Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiPhp className="technology-icon" />
-                <label className="technology-name">PHP</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">PHP</label>
+                  <br/>Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiLaravel className="technology-icon" />
-                <label className="technology-name">LARAVEL</label>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <label className="technology-name">LARAVEL</label>
+                  <br />Experienced
+                  </div>
               </div>
 
               <div className="technology-container">
                 <DiCodeigniter className="technology-icon" />
-                <label className="technology-name">Codeigniter</label>
-                <span className="expertise-text">Beginner</span>
+                <div className="expertise-text">
+                  <label className="technology-name">Codeigniter</label>
+                  <br />Beginner
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiMongodb className="technology-icon" />
-                <label className="technology-name">MongoDB</label>
-                <span className="expertise-text">Intermediate</span>
+                <div className="expertise-text">
+                  <label className="technology-name">MongoDB</label>
+                  <br />Intermediate
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiMysql className="technology-icon" />
-                <span className="technology-name">Mysql</span>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <span className="technology-name">Mysql</span>
+                  <br />Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiPostgresql className="technology-icon" />
-                <span className="technology-name">PostgreSQL</span>
-                <span className="expertise-text">Experienced</span>
+                <div className="expertise-text">
+                  <span className="technology-name">PostgreSQL</span>
+                  <br />Experienced
+                </div>
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92] leading-relaxed">
-            Im a Full-Stack Software Developer specializing in building
+            I'm a Full-Stack Software Developer specializing in building
             exceptional digital experiences.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
         <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
           <Image
-            src="/images/u1.jpg"
+            src="/images/prd-user-5.png"
             alt="user"
             layout="fill"
             className="object-cover rounded-full"

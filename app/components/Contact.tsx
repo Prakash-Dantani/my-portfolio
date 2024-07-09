@@ -73,7 +73,7 @@ const Contact = ({ onSubmit }: UserFormProps) => {
   };
 
   return (
-    <div id="contact" className="bg-[#02050a] pt-[4rem] md:pt-[4rem] pb-[1rem]">
+    <div id="contact" className="bg-[#02050a] pt-[4rem] md:pt-[2rem] pb-[1rem]">
       <h1 className="heading">
         CONTACT <span className="text-yellow-400">ME</span>
       </h1>

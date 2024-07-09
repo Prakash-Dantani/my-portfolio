@@ -8,7 +8,7 @@ const Experience = () => {
         MY <span className="text-yellow-400">Experience</span>
       </p>
 
-      <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
+      <div className="w-[80%] mx-auto pt-[2rem] md:pt-[4rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
         <div>
           <ExperienceItems
             title="FullStack Developer"

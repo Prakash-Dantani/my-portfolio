@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="bg-[#121121] pt-[4rem] md:pt-[8rem] pb-[5rem]"
+      className="bg-[#121121] pt-[2rem] md:pt-[4rem] pb-[3rem]"
     >
       <p className="heading">
         MY <span className="text-yellow-400">SERVICES</span>
