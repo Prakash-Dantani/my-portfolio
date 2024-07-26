@@ -1,11 +1,9 @@
-import { CodeBracketSquareIcon } from "@heroicons/react/20/solid";
 import React from "react";
 import { BsBootstrap } from "react-icons/bs";
 import {
   DiCodeigniter,
   DiCss3,
   DiHtml5,
-  DiJavascript,
   DiJavascript1,
   DiJqueryLogo,
   DiLaravel,
@@ -15,10 +13,7 @@ import {
   DiPhp,
   DiPostgresql,
   DiReact,
-  DiTypo3,
 } from "react-icons/di";
-import { FaDiagramNext } from "react-icons/fa6";
-import { MdJavascript } from "react-icons/md";
 import {
   SiChakraui,
   SiExpress,
@@ -34,8 +29,13 @@ const Skill = () => {
         MY <span className="text-yellow-400">SKills</span>
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2  w-[90%] mx-auto items-center gap-[3rem] mt-[4rem] text-white h-100%">
-        <div className="h-[100%]">
-          <div className="relative border-[#5588e6] border-2 hover:scale-105 transform transition-all duration-300 font-semibold text-center p-[1rem]">
+        <div
+          className="h-[100%]"
+          data-aos="flip-left"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
+          <div className="relative hover:bg-transparent shadow-inner hover:shadow-lg border-[#5588e6] shadow-[#5588e6]/50 hover:shadow-[#5588e6]/100 border-2 hover:scale-105 transform transition-all duration-300 font-semibold text-center p-[1rem]">
             <h1 className="text-[16px] md:text-[20px] mt-[0.5rem] mb-[2rem] text-color-three  text-yellow-400 uppercase">
               Frontend Development
             </h1>
@@ -45,7 +45,8 @@ const Skill = () => {
                 <DiHtml5 className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">HTML</label>
-                  <br />Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -53,7 +54,8 @@ const Skill = () => {
                 <DiCss3 className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">CSS</label>
-                  <br/>Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -85,7 +87,8 @@ const Skill = () => {
                 <SiTypescript className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">TypeScript</label>
-                  <br />Intermediate
+                  <br />
+                  Intermediate
                 </div>
               </div>
 
@@ -93,7 +96,8 @@ const Skill = () => {
                 <BsBootstrap className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">Bootstrap</label>
-                  <br />Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -110,15 +114,20 @@ const Skill = () => {
                 <SiTailwindcss className="technology-icon" />
                 <div className="expertise-text">
                   <span className="technology-name">Tailwind CSS</span>
-                  <br />Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div>
-          <div className="relative border-[#5588e6] border-2 hover:scale-105 transform transition-all duration-300 font-semibold text-center p-[1rem]">
+        <div
+          data-aos="flip-right"
+          data-aos-delay="500"
+          data-aos-duration="2000"
+        >
+          <div className="relative hover:bg-transparent shadow-inner hover:shadow-lg border-[#5588e6] shadow-[#5588e6]/50 hover:shadow-[#5588e6]/100 border-2 hover:scale-105 transform transition-all duration-300 font-semibold text-center p-[1rem]">
             <h1 className="text-[16px] md:text-[20px] mt-[0.5rem] mb-[2rem] text-color-three uppercase text-yellow-400">
               Backend Development
             </h1>
@@ -128,7 +137,8 @@ const Skill = () => {
                 <DiNodejs className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">NODE JS</label>
-                  <br />Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -136,7 +146,8 @@ const Skill = () => {
                 <SiExpress className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">Express JS</label>
-                  <br/>Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -144,7 +155,8 @@ const Skill = () => {
                 <SiNextdotjs className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">NEXT JS</label>
-                  <br/>Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -152,7 +164,8 @@ const Skill = () => {
                 <DiPhp className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">PHP</label>
-                  <br/>Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -160,15 +173,17 @@ const Skill = () => {
                 <DiLaravel className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">LARAVEL</label>
-                  <br />Experienced
-                  </div>
+                  <br />
+                  Experienced
+                </div>
               </div>
 
               <div className="technology-container">
                 <DiCodeigniter className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">Codeigniter</label>
-                  <br />Beginner
+                  <br />
+                  Beginner
                 </div>
               </div>
 
@@ -176,7 +191,8 @@ const Skill = () => {
                 <DiMongodb className="technology-icon" />
                 <div className="expertise-text">
                   <label className="technology-name">MongoDB</label>
-                  <br />Intermediate
+                  <br />
+                  Intermediate
                 </div>
               </div>
 
@@ -184,7 +200,8 @@ const Skill = () => {
                 <DiMysql className="technology-icon" />
                 <div className="expertise-text">
                   <span className="technology-name">Mysql</span>
-                  <br />Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
 
@@ -192,7 +209,8 @@ const Skill = () => {
                 <DiPostgresql className="technology-icon" />
                 <div className="expertise-text">
                   <span className="technology-name">PostgreSQL</span>
-                  <br />Experienced
+                  <br />
+                  Experienced
                 </div>
               </div>
             </div>

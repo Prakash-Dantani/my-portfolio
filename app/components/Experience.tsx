@@ -14,7 +14,7 @@ const Experience = () => {
             title="FullStack Developer"
             year="Sep-2021 to Current"
             content="Ensuring National Informatic Center met the specific needs of governmental operations. After successfully completing my initial project, I was reposted by NIC for another departmental project.
-                  Later, I transitioned to some other industires under the NIC, where I continued to leverage my skills in full-stack development for various industries. This role allowed me to gain significant experience in both web development and database management while collaborating closely with stakeholders to deliver effective software solutions."
+                  Later, I transitioned to some other industires under the NIC, where I continued to leverage my skills in full-stack development for various industries. This role allowed me to gain significant experience in Node JS, React JS, Express JS & MongoDB (MERN Stack). This Role added new skills and knowledge in my bright future profile."
           />
           <ExperienceItems
             title="Software Supporter Cum Developer"

@@ -7,7 +7,12 @@ interface Props {
 }
 const ExperienceItems = ({ title, year, content }: Props) => {
   return (
-    <div className="mb-[4rem] md:mb-[3rem]">
+    <div
+      className="mb-[4rem] md:mb-[3rem]"
+      data-aos="flip-left"
+      data-aos-delay="300"
+      data-aos-duration="2000"
+    >
       <span className="px-[2rem] text-[#55e6a5] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#55e6a5]">
         {year}
       </span>
