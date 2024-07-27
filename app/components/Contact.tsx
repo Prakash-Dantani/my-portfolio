@@ -68,6 +68,7 @@ const Contact = ({ onSubmit }: UserFormProps) => {
         alert("Failed to send email.");
       }
     } catch (error) {
+      console.log(error);
       alert(`An error occurred: `);
     }
   };
