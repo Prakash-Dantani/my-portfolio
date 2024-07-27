@@ -12,11 +12,11 @@ const Hero = () => {
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-            HI, I'M <span className="text-yellow-400">PRAKASH!</span>
+            HI, I&apos;M <span className="text-yellow-400">PRAKASH!</span>
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92] leading-relaxed">
-            I'm a Full-Stack Software Developer specializing in building
+            I&apos;m a Full-Stack Software Developer specializing in building
             exceptional digital experiences.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
