@@ -59,7 +59,7 @@ const Contact = ({ onSubmit }: UserFormProps) => {
   const sendEmail = async (data: User) => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/send-email",
+        "https://prakash-dantani.netlify.app/api/send-email",
         data
       );
       if (response.data.success) {
