@@ -4,13 +4,11 @@ import {
   EnvelopeIcon,
   MapIcon,
 } from "@heroicons/react/20/solid";
-import React, { useRef } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import emailjs from "@emailjs/browser";
-import { Slide, ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 const validationObject = z.object({
   name: z
@@ -58,48 +56,20 @@ const Contact = ({ onSubmit }: UserFormProps) => {
     resolver: zodResolver(validationObject),
   });
 
-  const form = useRef<HTMLFormElement>(null);
-
-  const sendEmail = async () => {
-    // const successToast = (message: string) => toast(message);
-
+  const sendEmail = async (data: User) => {
     try {
-      if (form.current) {
-        alert(process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY);
-        await emailjs
-          .sendForm(
-            process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID!,
-            process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID!,
-            form.current,
-            process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY!
-          )
-          .then(
-            () => {
-              console.log("SUCCESS!");
-              // alert("SUCCESS!");
-              toast.success("🦄 Wow so easy!", {
-                position: "top-right",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "light",
-                transition: Slide,
-              });
-            },
-            (error) => {
-              alert("failed");
-              console.log("FAILED...", error);
-            }
-          );
+      const response = await axios.post(
+        "https://prakash-dantani.netlify.app/api/send-email",
+        data
+      );
+      if (response.data.success) {
+        alert("Email sent successfully!");
+      } else {
+        alert("Failed to send email.");
       }
     } catch (error) {
-      alert(
-        "Something wrong, Please try after sometime or contact Prakash Dantani."
-      );
-      console.error(error);
+      console.log(error);
+      alert(`An error occurred: `);
     }
   };
 
@@ -154,12 +124,11 @@ const Contact = ({ onSubmit }: UserFormProps) => {
         <div>
           <div className="grid grid-cols-1 container font-semibold">
             <form
-              ref={form}
               method="POST"
               className="w-[80%]"
               action=""
               onSubmit={handleSubmit((data) => {
-                sendEmail();
+                sendEmail(data);
                 reset();
               })}
             >
