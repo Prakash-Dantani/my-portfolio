@@ -15,6 +15,17 @@ const About = () => {
             Transforming <span className="text-yellow-400">Visions</span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
+            {/* <div>
+              <div className=" border p-4 items-center align-middle text-center block">
+                <p className="items-center align-middle ">Experience</p>
+              </div>
+              <div>
+                <p>Projects</p>
+              </div>
+              <div>
+                <p>Clients</p>
+              </div>
+            </div> */}
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[90%] mt-[1.5rem] leading-relaxed text-justify">
               Hello! I am Prakash Dantani, a passionate and dedicated Full-Stack

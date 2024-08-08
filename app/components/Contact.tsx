@@ -249,14 +249,14 @@ const Contact = ({ onSubmit }: UserFormProps) => {
                     )}
                   </div>
                 </div>
-              </div>
-              <div className="mt-10">
-                <button
-                  type="submit"
-                  className="block w-full rounded-md bg-yellow-400 px-3.5 py-2.5 text-center text-sm font-semibold text-black hover:bg-[#55e6a5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Let&apos;s Talk
-                </button>
+                <div className="mt-10 content-center">
+                  <button
+                    type="submit"
+                    className="block w-50 text-al rounded-md bg-yellow-400 px-3.5 py-2.5 text-center text-sm font-semibold text-black hover:bg-[#55e6a5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Send Message
+                  </button>
+                </div>
               </div>
             </form>
           </div>

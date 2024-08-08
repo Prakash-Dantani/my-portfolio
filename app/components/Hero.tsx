@@ -3,6 +3,7 @@ import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
 import DownloadCV from "./DownloadCV";
+import { BsAward } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -19,9 +20,19 @@ const Hero = () => {
             I&apos;m a Full-Stack Software Developer specializing in building
             exceptional digital experiences.
           </p>
+
           <DownloadCV />
+          <div className="grid grid-cols-3 pt-5 relative">
+            <div className="flex flex-col items-center justify-center border-[1px] p-6">
+              <div className="text-white bg-opacity-50 text-center">
+                <BsAward className="h-10 w-10 pb-2 mx-auto" />
+                <h2 className="text-xl font-semibold">Experience</h2>
+                <span className="text-[#ffffff92]">6+ Years Working</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
+        <div className="w-[500px]  bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
           <Image
             src="/images/prd-user-5.png"
             alt="user"
