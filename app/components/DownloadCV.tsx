@@ -16,9 +16,11 @@ const DownloadCV = () => {
             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
           </button>
         </Link>
-        <button className="px-[2rem] hover:bg-blue-600 transition-all duration-200 text-[18px] font-bold uppercase bg-blue-400 text-black flex items-center space-x-2">
-          <p>Let&apos;s Talk</p>
-        </button>
+        <Link href="https://wa.me/8160890337" target="_blank">
+          <button className="px-[2rem] hover:bg-blue-600 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-blue-400 text-black flex items-center space-x-2">
+            <p>Let&apos;s Talk</p>
+          </button>
+        </Link>
       </div>
     </div>
   );

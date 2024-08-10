@@ -11,6 +11,7 @@ import * as z from "zod";
 import emailjs from "@emailjs/browser";
 import { Slide, ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Link from "next/link";
 
 const validationObject = z.object({
   name: z
@@ -133,7 +134,10 @@ const Contact = ({ onSubmit }: UserFormProps) => {
             <div>
               <h1 className="contact-item-heading">Phone</h1>
               <p className="contact-item-text text-nowrap">
-                +91 8160-890-337 <br /> +91 8487-824-336
+                +91 8160-890-337 <br />
+                <Link href="https://wa.me/8160890337" target="_blank">
+                  Send a message
+                </Link>
               </p>
             </div>
           </div>
@@ -144,10 +148,7 @@ const Contact = ({ onSubmit }: UserFormProps) => {
             </div>
             <div>
               <h1 className="contact-item-heading">Send Email</h1>
-              <p className="contact-item-text">
-                dantaniprakash08@gmail.com <br />
-                prakashdantani8@gmail.com
-              </p>
+              <p className="contact-item-text">dantaniprakash08@gmail.com</p>
             </div>
           </div>
         </div>
