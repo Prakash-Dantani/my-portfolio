@@ -13,7 +13,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center mt-[10vh]">
+    <div className="h-[100vh] md:h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center mt-[10vh]">
       <Particle />
 
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
@@ -29,25 +29,31 @@ const Hero = () => {
 
           <DownloadCV />
           <div className="grid grid-cols-3 pt-5 relative gap-[1rem]">
-            <div className="flex flex-col items-center justify-center border-[1px] p-6">
+            <div className="flex flex-col items-center justify-center mt-2 p-4 shadow-inner hover:shadow-lg border-[#5588e6] shadow-[#5588e6]/50 hover:shadow-[#5588e6]/100 border-2 hover:scale-105 transform transition-all duration-300">
               <div className="text-white bg-opacity-50 text-center">
                 <BsAward className="h-10 w-10 pb-2 mx-auto" />
-                <h2 className="text-xl font-semibold">Experience</h2>
-                <span className="text-[#ffffff92]">6+ Years Working</span>
+                <h2 className="text-l md:text-xl 2">Experience</h2>
+                <span className="text-[#ffffff92] text-xs md:text-sm font-semibold">
+                  6+ Years Working
+                </span>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center border-[1px] p-6">
+            <div className="flex flex-col items-center justify-center mt-2 p-4 shadow-inner hover:shadow-lg border-[#5588e6] shadow-[#5588e6]/50 hover:shadow-[#5588e6]/100 border-2 hover:scale-105 transform transition-all duration-300">
               <div className="text-white bg-opacity-50 text-center">
                 <FolderArrowDownIcon className="h-10 w-10 pb-2 mx-auto" />
-                <h2 className="text-xl font-semibold">Projects</h2>
-                <span className="text-[#ffffff92]">15+ Completed</span>
+                <h2 className="text-l md:text-xl 2">Projects</h2>
+                <span className="text-[#ffffff92] text-xs md:text-sm font-semibold">
+                  15+ Completed
+                </span>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center border-[1px] p-6">
+            <div className="flex flex-col items-center justify-center mt-2 p-4 shadow-inner hover:shadow-lg border-[#5588e6] shadow-[#5588e6]/50 hover:shadow-[#5588e6]/100 border-2 hover:scale-105 transform transition-all duration-300">
               <div className="text-white bg-opacity-50 text-center">
                 <UserGroupIcon className="h-10 w-10 pb-2 mx-auto" />
-                <h2 className="text-xl font-semibold">Clients</h2>
-                <span className="text-[#ffffff92]">10+ World Wide</span>
+                <h2 className="text-l md:text-xl 2">Clients</h2>
+                <span className="text-[#ffffff92] text-xs md:text-sm text-justify font-semibold">
+                  10+ World Wide
+                </span>
               </div>
             </div>
           </div>
