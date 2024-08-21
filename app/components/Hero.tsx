@@ -58,12 +58,13 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px]  bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
+        <div className="w-[500px] h-[500px] bg-[#55e6a5] relative lg:flex items-center rounded-full overflow-hidden">
           <Image
-            src="/images/prd-user-5.png"
+            src="/images/use-img-2.jpeg"
             alt="user"
             layout="fill"
             className="object-cover rounded-full"
+            style={{ objectPosition: "20% 30%" }}
           />
         </div>
       </div>

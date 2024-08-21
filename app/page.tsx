@@ -6,7 +6,6 @@ import Nav from "./components/Nav";
 import MobileNav from "./components/MobileNav";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Services from "./components/Services";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -14,6 +13,7 @@ import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Services from "./components/Services";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);

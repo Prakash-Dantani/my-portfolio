@@ -122,7 +122,7 @@ const Contact = ({ onSubmit }: UserFormProps) => {
             <div>
               <h1 className="contact-item-heading">Address</h1>
               <p className="contact-item-text">
-                Mehsana, Gujarat, India-384001.
+                Gandhinagar, Gujarat, India-382610.
               </p>
             </div>
           </div>
@@ -147,8 +147,18 @@ const Contact = ({ onSubmit }: UserFormProps) => {
               <EnvelopeIcon className="contact-icon" />
             </div>
             <div>
-              <h1 className="contact-item-heading">Send Email</h1>
-              <p className="contact-item-text">dantaniprakash08@gmail.com</p>
+              <h1 className="contact-item-heading">Email</h1>
+              <p className="contact-item-text">
+                dantaniprakash08@gmail.com
+                <br />
+                <Link
+                  href="mailto:dantaniprakash08@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Send Email
+                </Link>
+              </p>
             </div>
           </div>
         </div>
