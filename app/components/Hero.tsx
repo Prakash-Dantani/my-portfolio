@@ -34,7 +34,7 @@ const Hero = () => {
                 <BsAward className="h-10 w-10 pb-2 mx-auto" />
                 <h2 className="text-l md:text-xl 2">Experience</h2>
                 <span className="text-[#ffffff92] text-xs md:text-sm font-semibold">
-                  6+ Years Working
+                  8+ Years Working
                 </span>
               </div>
             </div>

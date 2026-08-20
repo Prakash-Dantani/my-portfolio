@@ -7,7 +7,7 @@ const DownloadCV = () => {
     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6  text-[18px] font-bold uppercase">
       <div className="flex space-x-4 mt-4 text-black">
         <Link
-          href="/docs/Prakash Dantani Resume.pdf"
+          href="/docs/Prakash Dantani FullStack Developer.pdf"
           target="_blank"
           // download="/docs/Prakash Dantani Resume.pdf"
         >
